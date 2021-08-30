@@ -6,7 +6,7 @@
             <tr>
                 <td scope="row"><strong>Nomor Surat</strong></td>
                 <td>:</td>
-                <td><?= $arsipData->nomor_surat ?></td>
+                <td style="text-transform: uppercase;"><?= $arsipData->nomor_surat ?></td>
             </tr>
             <tr>
                 <td scope="row"><strong>Kategori</strong></td>

@@ -17,7 +17,7 @@
         <tbody>
             <?php foreach ($arsipData as $key => $value) { ?>
                 <tr>
-                    <td scope="row"><?= $value['nomor_surat'] ?></td>
+                    <td style="text-transform: uppercase;" scope="row"><?= $value['nomor_surat'] ?></td>
                     <td><?= $value['kategori'] ?></td>
                     <td><?= $value['judul_surat'] ?></td>
                     <td><?= $value['createdAt'] ?></td>
@@ -52,7 +52,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-danger">Save</button>
+                    <button type="submit" class="btn btn-danger">Delete</button>
                 </div>
             </form>
         </div>

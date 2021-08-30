@@ -24,7 +24,7 @@
 <body>
     <div class="row container-fluid" style="height:100vh;">
         <div class="col-md-3 p-3 container-fluid bg-light" style="height:100%">
-            <h3>Arsip Gudang</h3>
+            <h3>Arsip</h3>
             <hr>
             <div class="list-group">
                 <a href="<?= base_url('/') ?>" class="list-group-item list-group-item-action <?= $this->uri->segment(1) != 'profil' ? 'active' : 'no' ?>" aria-current="true">
